@@ -1,3 +1,8 @@
 alt+c                   # COPY
 alt+v                   # PASTE
 alt+j                   # QUICK DOCUMENTATION
+alt+backspace           # delete to word start
+alt+<-                  # move caret to previous word
+alt+->                  # move caret to next word
+alt+t                   # refactor this (menu)
+alt+f                   # find in files
