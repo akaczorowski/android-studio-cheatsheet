@@ -1,0 +1,3 @@
+alt+c                   # COPY
+alt+v                   # PASTE
+alt+j                   # QUICK DOCUMENTATION
