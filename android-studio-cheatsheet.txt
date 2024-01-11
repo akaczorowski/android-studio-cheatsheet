@@ -1,8 +1,48 @@
-alt+c                   # COPY
-alt+v                   # PASTE
-alt+j                   # QUICK DOCUMENTATION
-alt+backspace           # delete to word start
-alt+<-                  # move caret to previous word
-alt+->                  # move caret to next word
-alt+t                   # refactor this (menu)
-alt+f                   # find in files
+ctrl+c                          # COPY
+ctrl+v                          # PASTE
+
+ctrl+j                          # QUICK DOCUMENTATION
+
+
+ctrl+t                          # refactor this (menu)
+ctrl+alt+f                      # introduce field       
+ctrl+alt+v                      # introduce variable
+ctrl+alt+m                      # intrdouce method
+ctrl+i                          # implement methods
+ctrl+o                          # override methods
+
+shift+ctrl+f                    # find in files
+ctrl+f                          # find in a file
+Double shift                    # find in all
+shift+ctrl+n                    # open files
+ctrl+n                          # open class
+ctrl+f12                        # file structure
+ctrl+alt+click                  # go to implementation
+ctrl+alt+b                      # go to implementation
+ctrl+f7                         # find usages
+
+ctrl+d                          # duplicate lines
+alt+backspace                   # delete to word start
+alt+arrow-left                  # move caret to previous word
+alt+arrow-right                 # move caret to next word
+ctrl+alt+[                      # move carret to code block start
+ctrl+alt+[                      # move caret to code block end
+ctrl+arrow-left                 # move care to line start
+ctrl+arrow-right                # move care to line end
+shift+ctrl+arrwo-up             # move statement up
+shift+ctrl+arrwo-down           # move statement down
+alt+shift+arrow-up              # move line up
+alt+shift+arrow-down            # move line down
+ctrl+shift+v                    # paste from history
+ctrl+k                          # cut up to end of line
+shift+f6                        # rename
+alt+shift+click                 # add/remove caret
+ctrl+alt+c                      # clone caret below
+shift+ctrl+alt+c                # clone caret above
+ctrl+g                          # select next occurence
+
+ctrl+alt+<-                     # navigation backward
+ctrl+alt+-> or                  # navigation forward
+
+
+alt+f12                         # open terminal
