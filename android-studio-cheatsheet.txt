@@ -40,6 +40,8 @@ alt+shift+click                 # add/remove caret
 ctrl+alt+c                      # clone caret below
 shift+ctrl+alt+c                # clone caret above
 ctrl+g                          # select next occurence
+shif+enter                      # start new line after current position
+shif+alt+enter                  # start new line before current position
 
 ctrl+alt+<-                     # navigation backward
 ctrl+alt+-> or                  # navigation forward
