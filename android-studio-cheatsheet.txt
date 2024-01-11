@@ -10,6 +10,8 @@ ctrl+alt+v                      # introduce variable
 ctrl+alt+m                      # intrdouce method
 ctrl+i                          # implement methods
 ctrl+o                          # override methods
+ctrl+alt+o                      # optimize imports
+ctrl+alt+left                   # reformat code
 
 shift+ctrl+f                    # find in files
 ctrl+f                          # find in a file
@@ -20,6 +22,8 @@ ctrl+f12                        # file structure
 ctrl+alt+click                  # go to implementation
 ctrl+alt+b                      # go to implementation
 ctrl+f7                         # find usages
+ctrl+p                          # parameter info
+f2                              # navigate to error/warning
 
 ctrl+d                          # duplicate lines
 alt+backspace                   # delete to word start
