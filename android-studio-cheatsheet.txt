@@ -24,9 +24,15 @@ ctrl+alt+b                      # go to implementation
 ctrl+f7                         # find usages
 ctrl+p                          # parameter info
 f2                              # navigate to error/warning
+ctrl+l                          # find next/move to next occurence
+shift+ctrl+l                    # find previous/move to previous occurence
+
+f3                              # toggle bookmarks
+shift+f3                        # show bookmarks
 
 ctrl+d                          # duplicate lines
 alt+backspace                   # delete to word start
+ctrl+backspace                  # delete line
 alt+arrow-left                  # move caret to previous word
 alt+arrow-right                 # move caret to next word
 ctrl+alt+[                      # move carret to code block start
@@ -44,6 +50,8 @@ alt+shift+click                 # add/remove caret
 ctrl+alt+c                      # clone caret below
 shift+ctrl+alt+c                # clone caret above
 ctrl+g                          # select next occurence
+shift+ctrl+g                    # unselect occurence
+shift+alt+g                     # select all occurences
 shif+enter                      # start new line after current position
 shif+alt+enter                  # start new line before current position
 
