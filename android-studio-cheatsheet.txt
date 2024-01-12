@@ -37,14 +37,17 @@ alt+arrow-left                  # move caret to previous word
 alt+arrow-right                 # move caret to next word
 ctrl+alt+[                      # move carret to code block start
 ctrl+alt+[                      # move caret to code block end
-ctrl+arrow-left                 # move care to line start
-ctrl+arrow-right                # move care to line end
-shift+ctrl+arrwo-up             # move statement up
-shift+ctrl+arrwo-down           # move statement down
+ctrl+w                          # move care to line start
+shift+ctrl+w                    # move care to line start with selection
+ctrl+e                          # move care to line end
+shift+ctrl+e                    # move care to line end with selection
+shift+ctrl+arrow-up             # move statement up
+shift+ctrl+arrow-down           # move statement down
 alt+shift+arrow-up              # move line up
 alt+shift+arrow-down            # move line down
 ctrl+shift+v                    # paste from history
 ctrl+k                          # cut up to end of line
+shift+ctrl+k                    # cut up to start of line
 shift+f6                        # rename
 alt+shift+click                 # add/remove caret
 ctrl+alt+c                      # clone caret below
