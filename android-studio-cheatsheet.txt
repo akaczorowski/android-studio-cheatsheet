@@ -19,8 +19,8 @@ Double shift                    # find in all
 shift+ctrl+n                    # open files
 ctrl+n                          # open class
 ctrl+f12                        # file structure
-ctrl+alt+click                  # go to implementation
-ctrl+alt+b                      # go to implementation
+alt+click                       # go to implementation
+alt+b                           # go to implementation
 ctrl+f7                         # find usages
 ctrl+p                          # parameter info
 f2                              # navigate to error/warning
