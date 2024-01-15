@@ -1,8 +1,12 @@
 ctrl+c                          # COPY
 ctrl+v                          # PASTE
+ctrl+z                          # UNDO
+shift+ctrl+z                    # REDO
+ctrl+r                          # replace
+ctrl+shift+r                    # replace in files
 
-ctrl+j                          # QUICK DOCUMENTATION
-
+alt+q                           # QUICK DOCUMENTATION
+ctrl+j                          # error description
 
 ctrl+t                          # refactor this (menu)
 ctrl+alt+f                      # introduce field       
@@ -19,8 +23,12 @@ Double shift                    # find in all
 shift+ctrl+n                    # open files
 ctrl+n                          # open class
 ctrl+f12                        # file structure
-alt+click                       # go to implementation
-alt+b                           # go to implementation
+alt+click                       # go to declaration or usages
+alt+b                           # go to declaration or usages
+shift+ctrl+b                    # got to type declaration
+shift+ctrl+click                # got to type declaration
+shift+ctrl+t                    # go to test
+shift+ctrl+r                    # run test
 ctrl+f7                         # find usages
 ctrl+p                          # parameter info
 f2                              # navigate to error/warning
@@ -50,7 +58,7 @@ ctrl+k                          # cut up to end of line
 shift+ctrl+k                    # cut up to start of line
 shift+f6                        # rename
 alt+shift+click                 # add/remove caret
-ctrl+alt+c                      # clone caret below
+shift+alt+c                     # clone caret below
 shift+ctrl+alt+c                # clone caret above
 ctrl+g                          # select next occurence
 shift+ctrl+g                    # unselect occurence
@@ -63,3 +71,6 @@ ctrl+alt+-> or                  # navigation forward
 
 
 alt+f12                         # open terminal
+
+alt+shift+r                     # reurn tests
+ctrl+shift+t                    # go to test
