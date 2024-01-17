@@ -16,6 +16,8 @@ ctrl+i                          # implement methods
 ctrl+o                          # override methods
 ctrl+alt+o                      # optimize imports
 ctrl+alt+left                   # reformat code
+ctrl+alt+n                      # new in this directory
+
 
 shift+ctrl+f                    # find in files
 ctrl+f                          # find in a file
@@ -23,12 +25,11 @@ Double shift                    # find in all
 shift+ctrl+n                    # open files
 ctrl+n                          # open class
 ctrl+f12                        # file structure
-alt+click                       # go to declaration or usages
-alt+b                           # go to declaration or usages
-shift+ctrl+b                    # got to type declaration
-shift+ctrl+click                # got to type declaration
-shift+ctrl+t                    # go to test
-shift+ctrl+r                    # run test
+alt+click                       # go to implementations
+alt+b                           # go to implementations
+shift+ctrl+b                    # go to declaration or usages
+shift+ctrl+click                # go to declaration or usages
+
 ctrl+f7                         # find usages
 ctrl+p                          # parameter info
 f2                              # navigate to error/warning
@@ -38,6 +39,7 @@ shift+ctrl+l                    # find previous/move to previous occurence
 f3                              # toggle bookmarks
 shift+f3                        # show bookmarks
 
+alt+arrow-up                    # extend selection
 ctrl+d                          # duplicate lines
 alt+backspace                   # delete to word start
 ctrl+backspace                  # delete line
@@ -66,11 +68,17 @@ shift+alt+g                     # select all occurences
 shif+enter                      # start new line after current position
 shif+alt+enter                  # start new line before current position
 
+ctrl+alt+b                      # jump to navigation bar
+alt+i                           # recent files
 ctrl+alt+<-                     # navigation backward
 ctrl+alt+-> or                  # navigation forward
 
 
 alt+f12                         # open terminal
 
-alt+shift+r                     # reurn tests
-ctrl+shift+t                    # go to test
+
+shift+ctrl+t                    # go to test
+shift+ctrl+y                    # run context configuration (e.g. run test when in it)
+
+alt+/                           # comment with line comment
+shift+alt+/                     # comment with block comment
