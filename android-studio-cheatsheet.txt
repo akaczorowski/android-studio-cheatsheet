@@ -25,39 +25,36 @@ Double shift                    # find in all
 shift+ctrl+n                    # open files
 ctrl+n                          # open class
 ctrl+f12                        # file structure
-alt+click                       # go to implementations
-alt+b                           # go to implementations
-shift+ctrl+b                    # go to declaration or usages
-shift+ctrl+click                # go to declaration or usages
+alt+click                       # go to declaration or usages
+alt+b                           # go to declaration or usages
+shift+alt+b                     # go to implementations
 
 ctrl+f7                         # find usages
-ctrl+p                          # parameter info
 f2                              # navigate to error/warning
-ctrl+l                          # find next/move to next occurence
-shift+ctrl+l                    # find previous/move to previous occurence
+shift+ctrl+l                    # move caret forward a paragraph
+shift+ctrl+p                    # move caret backward a paragraph
 
 f3                              # toggle bookmarks
 shift+f3                        # show bookmarks
 
-alt+arrow-up                    # extend selection
+alt++                           # extend selection
+alt+-                           # shrink selection
 ctrl+d                          # duplicate lines
 alt+backspace                   # delete to word start
 ctrl+backspace                  # delete line
-alt+arrow-left                  # move caret to previous word
-alt+arrow-right                 # move caret to next word
-ctrl+alt+[                      # move carret to code block start
-ctrl+alt+[                      # move caret to code block end
-ctrl+w                          # move care to line start
-shift+ctrl+w                    # move care to line start with selection
-ctrl+e                          # move care to line end
-shift+ctrl+e                    # move care to line end with selection
-shift+ctrl+arrow-up             # move statement up
-shift+ctrl+arrow-down           # move statement down
-alt+shift+arrow-up              # move line up
-alt+shift+arrow-down            # move line down
+ctrl+alt+[                      # move caret to previous word 
+ctrl+alt+[                      # move caret to next word
+alt+;                           # move care to line start
+shift+alt+;                     # move care to line start with selection
+alt+'                           # move care to line end
+shift+alt+'                     # move care to line end with selection
+alt+p                           # up
+alt+l                           # down
+alt+,                           # left
+alt+.                           # down
+alt+shift+p                     # move line up
+alt+shift+l                     # move line down
 ctrl+shift+v                    # paste from history
-ctrl+k                          # cut up to end of line
-shift+ctrl+k                    # cut up to start of line
 shift+f6                        # rename
 alt+shift+click                 # add/remove caret
 shift+alt+c                     # clone caret below
@@ -70,8 +67,8 @@ shif+alt+enter                  # start new line before current position
 
 ctrl+alt+b                      # jump to navigation bar
 alt+i                           # recent files
-ctrl+alt+<-                     # navigation backward
-ctrl+alt+-> or                  # navigation forward
+shift+ctrl+alt+,                # navigation backward
+shift+ctrl+alt+.                # navigation forward
 
 
 alt+f12                         # open terminal
